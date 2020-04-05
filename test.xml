@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SM Android Tests" verbose="1" preserve-order="true" group-by-instances="true">
+    <test name="Short">
+        <classes>
+         <class name="Tests.Tests_HomePage">
+             <methods>
+                 <include name="verifyCurrency"/>
+                 <include name="verifyAddInCart"/>
+             </methods>
+         </class>
+        </classes>
+    </test>
+</suite>
